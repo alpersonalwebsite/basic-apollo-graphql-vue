@@ -1,0 +1,42 @@
+{
+  "name": "basic-apollo-graphql-vue-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vue client querying the Apollo server in this repository through vue-apollo",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "Al Diaz",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "core-js": "^3.3.2",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.4.2",
+    "vue": "^2.6.10",
+    "vue-apollo": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": ["> 1%", "last 2 versions"]
+}

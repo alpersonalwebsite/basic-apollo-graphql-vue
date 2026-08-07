@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# build output
+dist
+
+# misc
+.DS_Store
+.idea
+.vscode
+
+# env files. Vue CLI loads .env, .env.development, .env.production and the .local
+# variants; everything except the committed example is ignored.
+.env*
+!.env.example
+
+# secrets and local databases
+secrets/
+credentials*
+*.pem
+*.key
+*.log
+*.sqlite
+*.sqlite3
+*.db
